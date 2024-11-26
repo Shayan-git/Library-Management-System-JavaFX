@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LibrarianItemsScene">
+   <children>
+      <Label layoutX="135.0" layoutY="17.0" text="Librarian Items">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel" alignment="CENTER" layoutY="75.0" prefHeight="18.0" prefWidth="500.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="libraryIdLabel" alignment="CENTER" layoutY="113.0" prefHeight="30.0" prefWidth="500.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="206.0" layoutY="162.0" mnemonicParsing="false" onAction="#switchToAllBooks" text="All Books">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="181.0" layoutY="212.0" mnemonicParsing="false" onAction="#switchToBorrowedBooks" text="Borrowed Books">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="194.0" layoutY="262.0" mnemonicParsing="false" onAction="#showAllMembers" text="All Members">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="193.0" layoutY="312.0" mnemonicParsing="false" onAction="#showAllLibrarians" text="All Librarians">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="191.0" layoutY="362.0" mnemonicParsing="false" onAction="#librarianSignUpScene" text="Add Librarian">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="203.0" layoutY="412.0" mnemonicParsing="false" onAction="#switchToAddBook" text="Add Book">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="189.0" layoutY="462.0" mnemonicParsing="false" onAction="#switchToRemoveBook" text="Remove Book">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="162.0" layoutY="512.0" mnemonicParsing="false" onAction="#switchToBorrowedInformation" text="Borrowed Information">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="217.0" layoutY="562.0" mnemonicParsing="false" onAction="#switchToLibrarianSignInScene" text="Sign Out" />
+   </children>
+</AnchorPane>

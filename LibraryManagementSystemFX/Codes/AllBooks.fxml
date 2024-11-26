@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AllBooks">
+   <children>
+      <Label layoutX="178.0" layoutY="44.0" text="All Books">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <ListView fx:id="allBooksListView" layoutX="79.0" layoutY="152.0" prefHeight="363.0" prefWidth="342.0" />
+      <Button layoutX="288.0" layoutY="538.0" mnemonicParsing="false" onAction="#switchToItemsScene" text="Back" />
+      <Label layoutX="138.0" layoutY="104.0" text="Name - ISBN - Availablity">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="164.0" layoutY="538.0" mnemonicParsing="false" onAction="#switchToAllBooks" text="Refresh" />
+   </children>
+</AnchorPane>

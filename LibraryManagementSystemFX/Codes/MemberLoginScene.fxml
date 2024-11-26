@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MemberLoginScene">
+   <children>
+      <Label layoutX="134.0" layoutY="38.0" text="Member">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="165.0" layoutY="157.0" mnemonicParsing="false" onAction="#switchToMemberSignInScene" text="Sign In">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="161.0" layoutY="222.0" mnemonicParsing="false" onAction="#switchToMemberSignUpScene" text="Sign Up">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="179.0" layoutY="335.0" mnemonicParsing="false" onAction="#switchToLibraryScene" text="Back" />
+   </children>
+</AnchorPane>
